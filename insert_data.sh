@@ -57,14 +57,6 @@ do
 
     INSERT_TEAMS=$($PSQL "INSERT INTO games (year, round, winner_id, opponent_id, winner_goal, opponent_goal) VALUES ($YEAR, '$ROUND', $WINNER_ID, $OPPO_ID, $WINNER_GOALS, $OPPONENT_GOALS)")
     
-    
-
-
   fi
 
-  
-
-  
-
-  
 done
